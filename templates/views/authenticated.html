@@ -1,0 +1,9 @@
+<p>Hello, authenticated user!</p>
+
+<form method="post">
+  <input type="hidden" name="post_header" value="log out">
+  <input type="submit"  value="Logout">
+  <p>
+    Password: {{current_user.password}}
+  </p>
+</form>
